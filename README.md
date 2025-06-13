@@ -79,7 +79,9 @@ This resource is perfect for:
 
 Prefer not to install anything? Try it live with Google Colab 💡
 
-🧪 Dependencies
+---
+
+## 🧪 Dependencies
 The tutorials use the following Python libraries:
 
 * numpy
@@ -99,16 +101,16 @@ You can install them all at once with:
    ```bash
    pip install -r requirements.txt
    ```
+---
 
-✨ Contributing
+## ✨ Contributing
 Pull requests are welcome! If you have an idea for a new tutorial, spot a typo, or want to add a comment that might help a fellow student — go for it.
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License — see the LICENSE file for details.
 
-👤 Author
+## 👤 Author
 Manuel Ferrer-Garcia
 Postdoctoral Fellow, University of Ottawa
-Lover of structured light, clean plots, and overthinking error bars
 
 
