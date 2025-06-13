@@ -2,7 +2,6 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yourusername/python-lab-tutorials/HEAD)
 
 > Are you new in the lab? Not sure where to start with data analysis in the optics lab?  
 > **I’ve been there.** So I tried to give you some answers!
@@ -83,24 +82,24 @@ Prefer not to install anything? Try it live with Google Colab 💡
 🧪 Dependencies
 The tutorials use the following Python libraries:
 
-numpy
+* numpy
 
-scipy
+* scipy
 
-matplotlib
+* matplotlib
 
-seaborn
+* seaborn
 
-pandas
+* pandas
 
-jupyter
+* jupyter
 
 You can install them all at once with:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 ✨ Contributing
 Pull requests are welcome! If you have an idea for a new tutorial, spot a typo, or want to add a comment that might help a fellow student — go for it.
 
@@ -111,12 +110,5 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 Manuel Ferrer-Garcia
 Postdoctoral Fellow, University of Ottawa
 Lover of structured light, clean plots, and overthinking error bars
-
-📝 Coming Soon
-📷 Beam profile image analysis
-
-🎥 Time-series signal diagnostics
-
-🧪 Lab-specific examples (e.g., optics bench experiments, interferometry)
 
 
