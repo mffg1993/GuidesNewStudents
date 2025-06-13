@@ -60,19 +60,23 @@ This resource is perfect for:
    ```bash
    git clone https://github.com/yourusername/python-lab-tutorials.git
    cd python-lab-tutorials
-
+   ```
 2. Create a virtual environment (recommended):
- ```bash
- python -m venv venv
- source venv/bin/activate  
-
+    ```bash
+    python -m venv venv
+    source venv/bin/activate
+    ```
 3. Install all dependencies:
- ```bash
- pip install -r requirements.txt
+
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 4. Run the notebooks:
- ```bash
- jupyter notebook
+
+    ```bash
+    jupyter notebook
+    ```
 
 Prefer not to install anything? Try it live with Google Colab 💡
 
