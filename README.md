@@ -68,11 +68,11 @@ This resource is perfect for:
 
 3. Install all dependencies:
  ```bash
-   pip install -r requirements.txt
+    pip install -r requirements.txt
 
 4. Run the notebooks:
  ```bash
-   jupyter notebook
+    jupyter notebook
 
 Prefer not to install anything? Try it live with Google Colab 💡
 
