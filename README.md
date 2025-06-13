@@ -63,16 +63,16 @@ This resource is perfect for:
 
 2. Create a virtual environment (recommended):
  ```bash
-   python -m venv venv
-   source venv/bin/activate  
+ python -m venv venv
+ source venv/bin/activate  
 
 3. Install all dependencies:
  ```bash
-    pip install -r requirements.txt
+ pip install -r requirements.txt
 
 4. Run the notebooks:
  ```bash
-    jupyter notebook
+ jupyter notebook
 
 Prefer not to install anything? Try it live with Google Colab 💡
 
