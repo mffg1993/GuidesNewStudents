@@ -1,29 +1,118 @@
 # 🧪 Python Lab Tutorials for Undergraduate Physics
 
-Welcome to the **Python Lab Tutorials** repository! This collection of interactive Jupyter notebooks is designed to introduce undergraduate students—especially those in physics, optics, or engineering—to foundational programming tools that are useful in laboratory environments.
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yourusername/python-lab-tutorials/HEAD)
+
+> Are you new in the lab? Not sure where to start with data analysis in the optics lab?  
+> **I’ve been there.** So I tried to give you some answers!
+
+This is a student-friendly, optics-skewed Python toolbox designed to help you go from "what am I even looking at?" to "I think this plot is actually publishable."
 
 ---
 
-## 🚀 What You’ll Learn
+## 🚀 What’s Inside?
 
-Each tutorial covers essential topics in scientific computing, with examples tailored for optics and experimental physics. The goal is to build up practical skills while reinforcing theoretical knowledge through hands-on coding.
+This repository contains a series of interactive, beginner-focused Jupyter notebooks to help you:
 
-### 📚 Topics Covered
-- **Curve Fitting**: Linear, polynomial, and custom model fitting with `scipy.optimize.curve_fit`.
-- **Error Analysis**: Standard deviation, propagation of uncertainty, and weighted fitting.
-- **Signal Processing**: Fourier transforms, filtering, smoothing.
-- **Plotting**: Heatmaps, bar plots, scatter plots, styling with `matplotlib` and `seaborn`.
-- **Image Processing** *(coming soon)*: Handling and analyzing experimental images.
+- Understand the theory behind common lab techniques  
+- Apply those techniques in real experimental workflows  
+- Learn by doing (with code, plots, and physical insight)
+
+Each topic is designed to be approachable, practical, and written with undergrads in mind.
+
+### 🧰 Topics Covered
+
+- 📉 **Curve Fitting**  
+  Linear, polynomial, and custom model fitting using `scipy.optimize.curve_fit`.
+
+- 🧮 **Error Analysis**  
+  Standard deviation, propagation of uncertainty, and weighted fitting — the essentials of making your numbers mean something.
+
+- 🎧 **Signal Processing**  
+  Learn to clean up and interpret signals using FFTs, smoothing, and filters (Butterworth, Gaussian, etc.).
+
+- 📊 **Plotting**  
+  Turn raw data into readable, styled plots with `matplotlib` and `seaborn`.
+
+- 🔬 **Image Processing** *(coming soon)*  
+  Learn to extract useful information from images — beam profiles, interference patterns, and more.
 
 ---
 
-## 🔧 Getting Started
+## 🧪 Why This Exists
 
-To run the tutorials:
+You're handed some data and told to *analyze it*.  
+Now what?
+
+These notebooks aim to answer that question. They’re meant to be your digital lab partner — friendly, thorough, and always ready to explain what a residual is.
+
+This resource is perfect for:
+- Physics & engineering undergrads
+- Teaching assistants and lab instructors
+- Curious students and early researchers
+
+---
+
+## 💻 Getting Started
 
 1. Clone this repository:
-   '''
+   ```bash
    git clone https://github.com/yourusername/python-lab-tutorials.git
    cd python-lab-tutorials
-   '''
+
+2. Create a virtual environment (recommended):
+ ```bash
+   python -m venv venv
+   source venv/bin/activate  # or .\venv\Scripts\activate on Windows
+
+3. Install all dependencies:
+ ```bash
+   pip install -r requirements.txt
+
+4. Run the notebooks:
+ ```bash
+   jupyter notebook
+
+Prefer not to install anything? Try it live with Google Colab 💡
+
+🧪 Dependencies
+The tutorials use the following Python libraries:
+
+numpy
+
+scipy
+
+matplotlib
+
+seaborn
+
+pandas
+
+jupyter
+
+You can install them all at once with:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+✨ Contributing
+Pull requests are welcome! If you have an idea for a new tutorial, spot a typo, or want to add a comment that might help a fellow student — go for it.
+
+📄 License
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+👤 Author
+Manuel Ferrer-Garcia
+Postdoctoral Fellow, University of Ottawa
+Lover of structured light, clean plots, and overthinking error bars
+
+📝 Coming Soon
+📷 Beam profile image analysis
+
+🎥 Time-series signal diagnostics
+
+🧪 Lab-specific examples (e.g., optics bench experiments, interferometry)
+
 
